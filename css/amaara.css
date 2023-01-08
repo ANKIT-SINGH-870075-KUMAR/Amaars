@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* using this class in navbar section  */
+.Nav-background{
+    background-color: white!important;
+    position: sticky;
+    top: 0;
+}
+
+.button-icon{
+    padding: 1vmax;
+    margin-right: 0.2vmax;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.btn-number{
+    padding: 0.2vmax;
+    border-bottom: 1px solid black;
+}
+
+/* using this class in slider section */
+.Slider_desgin{
+    width: 100%;
+    height: 100vh;
+}
+
+.icon_desgin{
+    background-color: black;
+    border-radius: 100%;
+}
+
+/* using this class in heading section */
+.container_desgin{
+    padding: 3vmax;
+}
+
+.text{
+    font: 700 3vmax sans-serif;
+}
+
+.text span{
+   background-color: #fdb425;
+   padding: 0.4vmax;
+}
+
+/* using this class in icon section */
+.feature_container{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-card{
+    margin: 2vmax;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pad-icon{
+    padding: 0.3vmax;
+    font-size: 2.4vmax;
+}
+
+.icon-img{
+    width: 3vmax;
+}
+
+.icon-text{
+    font: 100 1.3vmax sans-serif;
+    text-align: justify;
+    padding: 1vmax;
+}
+
+/* using this class in best seller section */
+.bg-color{
+    background-color: white;
+    position: relative;
+}
+
+.heading{
+    font: 300 2.5vmax sans-serif;
+    padding: 1vmax;
+    padding-left: 0;
+}
+
+.card{
+    border: none;
+}
+
+.card-desgin{
+    width: 100%;
+    height: 250px;
+}
+
+.title-text{
+    font: 700 1.1vmax sans-serif;
+}
+
+.card-text{
+    text-align: justify;
+    color: gray;
+    font-weight: 500;
+}
+
+.price{
+    font: 400 1.5vmax sans-serif;
+}
+
+.price span{
+    font: 300 1.2vmax sans-serif;
+}
+
+.size{
+    width: 26%;
+    font-size: 1.3vmax;
+}
+
+.font{
+    font: 500 0.6vmax sans-serif;
+    color: gray;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1vmax;
+    border-radius: 10px;
+}
+
+.Add-btn{
+    text-decoration: none;
+    color: black;
+    font: 300 1vmax sans-serif;
+}
+
+/* using this class in get in touch section */
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vmax;
+}
+
+.footer-text{
+    font-size: 3.8vmax;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 0.7vmax;
+}
+
+.footer-par{
+    font-size: 1.8vmax;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 0.7vmax;
+}
+
+.input{
+    width: 50%;
+}
+
+.input input{
+    width: 95%;
+    font-size: 1.3vmax;
+    padding: 1vmax 2vmax;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding-right: 5vmax;
+}
+
+.icon-input{
+    transform: translateX(-3.5vmax);
+    font-size: 2vmax;
+}
+
+.stay-container{
+    padding: 6vmax;
+}
+
+.lowwer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left h6{
+    font: 300 1vmax sans-serif;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right h6{
+    font: 300 1vmax sans-serif;
+}
+
+.right2{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right2-2 .footer-icon{
+ padding: 0.8vmax;
+}
+
+@media screen and (max-width: 600px) {
+    .button-icon{
+        margin-bottom: 0.8vmax;
+    }
+    .Slider_desgin{
+        width: 100%;
+        height: 25vh;
+    }
+
+    .container_desgin{
+        padding-left: 0;
+    }
+
+    .text{
+        font-size: 3.7vmax;
+    }
+
+    .feature_container{
+        flex-wrap: wrap;
+    }
+
+    .pad-icon{
+        font-size: 2.7vmax;
+    }
+    
+    .icon-img{
+        width: 3.5vmax;
+    }
+
+    .icon-text{
+        font-size: 2vmax;
+    }
+
+    .heading{
+        font-size: 4vmax;
+    }
+
+    .title-text{
+        font: 700 3vmax sans-serif;
+    }
+
+    .price{
+        font: 400 3vmax sans-serif;
+    }
+    
+    .price span{
+        font: 300 2vmax sans-serif;
+    }
+
+    .size{
+        width: 10%;
+        font-size: 3vmax;
+    }
+
+    .font{
+        font: 500 1.7vmax sans-serif;
+    }
+
+    .button-container{
+       padding: 1.5vmax;
+    }
+
+    .Add-btn{
+        font: 300 2vmax sans-serif;
+    }
+
+    .footer{
+        padding: 1.7vmax;
+    }
+    
+    .footer-text{
+        font-size: 4vmax;
+    }
+    
+    .footer-par{
+        font-size: 2vmax;
+        padding: 0.5vmax;
+    }
+    
+    .input{
+        width: 100%;
+    }
+    
+    .input input{
+        width: 95%;
+        font-size: 2vmax;
+        padding: 2vmax;
+    }
+    
+    .icon-input{
+        transform: translateX(-4vmax);
+        font-size: 2vmax;
+    }
+    
+    .stay-container{
+        padding: 5vmax;
+    }
+    
+    .lowwer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .left h6{
+        font: 300 1.6vmax sans-serif;
+    }
+    
+    .right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right h6{
+        font: 300 1.6vmax sans-serif;
+    }
+    
+    .right2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .right2-2 .footer-icon{
+     padding: 0.8vmax;
+    }
+}
